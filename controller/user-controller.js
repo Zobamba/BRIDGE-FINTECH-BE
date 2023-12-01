@@ -56,7 +56,8 @@ class UserController {
 
       res.status(401).send({ message: 'User not found' });
     }).catch((error) => {
-      res.status(401).send(getErrorMessage(error));
+      // res.status(401).send(getErrorMessage(error));
+      console.log(error);
     });
   }
 
