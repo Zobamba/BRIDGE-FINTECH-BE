@@ -7,7 +7,7 @@
     "dialect": "postgres",
     "port": 5432,
     "dialectOptions": {
-      "ssl": true    
+      "ssl": true
     }
   },
   "test": {
@@ -24,6 +24,9 @@
     "database": "bridge_fintech_2j4j",
     "host": "dpg-clfadctadtrs73b15rt0-a.oregon-postgres.render.com",
     "dialect": "postgres",
-    "port": 5432
+    "port": 5432,
+    "dialectOptions": {
+      "ssl": true
+    }
   }
 }
