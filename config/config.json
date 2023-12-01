@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "root",
+    "password": "gSURv6Trl6fnnWUzXbPdBYizSFyJOdvO",
+    "database": "bridge_fintech_2j4j",
+    "host": "dpg-clfadctadtrs73b15rt0-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "port": 5432,
+    "dialectOptions": {
+      "ssl": true    
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": "gSURv6Trl6fnnWUzXbPdBYizSFyJOdvO",
+    "database": "bridge_fintech_2j4j",
+    "host": "dpg-clfadctadtrs73b15rt0-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "port": 5432
+  },
+  "production": {
+    "username": "root",
+    "password": "gSURv6Trl6fnnWUzXbPdBYizSFyJOdvO",
+    "database": "bridge_fintech_2j4j",
+    "host": "dpg-clfadctadtrs73b15rt0-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "port": 5432
+  }
+}
