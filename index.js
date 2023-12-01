@@ -1,5 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+import cors from 'cors';
 import dbConnection from './utils/database.js';
 import routes from './routes/routes.js';
 
@@ -9,6 +10,10 @@ const port = 4000;
 
 app.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
 app.use(bodyParser.json({ limit: '50mb' }));
+
+app.use(cors({
+  origin: '*'
+}));
 
 app.use(express.json())
 
