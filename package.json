@@ -1,0 +1,37 @@
+{
+  "name": "bridge-fintech-be",
+  "version": "1.0.0",
+  "description": "This is the backend system for BRIDGE: Effortless Cross-Border Financial Transfers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm index.js",
+    "migrate": "npx sequelize-cli db:migrate",
+    "undo-migration": "npx sequelize-cli db:migrate:undo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stutern-Group-283/BRIDGE-FINTECH-BE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stutern-Group-283/BRIDGE-FINTECH-BE/issues"
+  },
+  "homepage": "https://github.com/Stutern-Group-283/BRIDGE-FINTECH-BE#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "password-hash": "^1.2.2",
+    "pg": "^8.11.3",
+    "sequelize": "^6.35.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
+  }
+}
